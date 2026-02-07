@@ -1,4 +1,14 @@
 @import url("./reset.css");
+:root{
+    --maincolor:#1F2E35;
+    --secondarycolor: #EE4248;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+     font-family: "Roboto", sans-serif;
+
+}
+
 .header{
      display: flex;
     text-align: center;
@@ -7,7 +17,7 @@
     
 }
 h4{
-    color: #1F2E35;
+    color: var(--maincolor);
     font-weight: 300;
 }
 .header-img{
@@ -32,4 +42,36 @@ h4{
 .Union {
     height: 20px;
    width: 20px;
+}
+main{
+   display: flex;
+   align-items: center;
+   column-gap: 50px;
+}
+.main-left{
+     margin-left: 160px;
+}
+.h1-left{
+    text-align: left;
+    width: 350px;
+    margin-top: 124px;
+    font-weight: 500;
+        color: var(--maincolor);
+}
+.span-left{
+    color: #EE4248
+}
+.p-left{
+   width: 450px;
+
+}
+.button-left{
+    background: var(--secondarycolor);
+    padding: 12px 32px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.image-left{
+    margin-top: 209px;
 }

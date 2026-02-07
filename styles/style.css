@@ -1,1 +1,26 @@
 @import url("./reset.css");
+.header{
+     display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+}
+.header-img{
+    height: 50px;
+    margin-left: 50px;
+}
+.shuffle{
+    height: 15px;
+    width: 15px;
+    margin-top: 20px;
+}
+.mail{
+     height: 15px;
+    width: 15px;
+    margin-top: 20px;
+}
+.Union{
+     height: 15px;
+    width: 15px;
+    margin-top: 20px;
+}
